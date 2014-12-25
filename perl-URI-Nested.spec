@@ -16,6 +16,9 @@ Requires:       perl(URI) >= 1.40
 Requires:       perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 This class provides support for nested URIs, where the scheme is a prefix, and
 the remainder of the URI is another URI. Examples include JDBC URIs and
 database URIs.
