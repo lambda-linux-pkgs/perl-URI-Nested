@@ -1,6 +1,8 @@
+%define _buildid .2
+
 Name:           perl-URI-Nested
 Version:        0.10
-Release:        1%{?dist}
+Release:        1%{?_buildid}%{?dist}
 Summary:        Perl module for nested URIs
 License:        GPL+ or Artistic
 Group:          Development/Libraries
